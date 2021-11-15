@@ -1,0 +1,18 @@
+2)
+composer require spatie/laravel-permission
+
+composer require laravelcollective/html
+
+php artisan migrate 
+
+Step 3
+
+php artisan make:migration create_products_table
+
+php artisan migrate
+
+Step 4: Create Models
+
+Step 5: Add Middleware
+
+Step 6: Create Authentication
