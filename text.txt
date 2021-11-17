@@ -64,3 +64,20 @@ Step 10: Create Seeder For Permissions and AdminUser
 
 
     hazirlikce dine rol berip gordum boldy
+
+
+============================================================================================================
+                        Laravel 8 Sanctum API Authentication Tutorial
+        
+
+Step 1: Install Laravel 8 => true
+
+Step 2: Use Sanctum
+
+composer require laravel/sanctum
+
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
+php artisan migrate
+
+Step 3: Sanctum Configuration
