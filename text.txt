@@ -16,3 +16,51 @@ Step 4: Create Models
 Step 5: Add Middleware
 
 Step 6: Create Authentication
+
+3)
+
+composer require laravel/breeze --dev
+
+php artisan breeze:install
+
+npm install
+npm run dev
+php artisan migrate
+
+Step 8: Add Controllers
+
+UserController
+
+ProductController
+
+RoleController
+
+Step 9: Add Blade Files
+
+    Theme Layout
+
+    app.blade.php
+        0
+
+
+    Users Module
+
+    index.blade.php create.blade.php edit.blade.php show.blade.php
+        x               x               x               x
+
+    Roles Module
+
+    index.blade.php create.blade.php edit.blade.php show.blade.php
+        0               0               0               0
+
+    Product Module
+
+    index.blade.php create.blade.php edit.blade.php show.blade.php
+           x             x               x                x
+
+Step 10: Create Seeder For Permissions and AdminUser
+
+    php artisan make:seeder PermissionTableSeeder
+
+
+    hazirlikce dine rol berip gordum boldy
